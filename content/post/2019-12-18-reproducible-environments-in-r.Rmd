@@ -17,6 +17,11 @@ tags:
   - "Reproducible research"
 ---
 
+```{r include = FALSE}
+requireNamespace("emo")
+emoji <- function(...) paste0(sapply(c(...), emo::ji), collapse = "")
+```
+
 [twitter]: https://twitter.com/ericedwrdbryant
 [R]: https://r-project.org
 [knitr]: https://yihui.org/knitr

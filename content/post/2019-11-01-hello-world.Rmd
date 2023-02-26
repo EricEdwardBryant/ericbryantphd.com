@@ -12,6 +12,11 @@ tags:
   - hugo
 ---
 
+```{r include = FALSE}
+requireNamespace("emo")
+emoji <- function(...) paste0(sapply(c(...), emo::ji), collapse = "")
+```
+
 [blogdown]: https://bookdown.org/yihui/blogdown
 [rmarkdown]: https://bookdown.org/yihui/rmarkdown
 [hugo]: https://gohugo.io

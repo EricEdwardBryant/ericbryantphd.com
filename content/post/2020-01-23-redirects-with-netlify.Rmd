@@ -7,8 +7,11 @@ categories: [netlify]
 tags: [netlify, redirects]
 ---
 
-<!-- Twitter post formatting script -->
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```{r include = FALSE}
+requireNamespace("emo")
+emoji <- function(...) paste0(sapply(c(...), emo::ji), collapse = "")
+```
+
 
 I recently saw this tweet from [Danielle Navarro](https://djnavarro.net) about
 purchasing a domain to serve redirects to important links.
