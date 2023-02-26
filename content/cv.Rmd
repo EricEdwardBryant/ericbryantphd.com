@@ -20,6 +20,10 @@ knitr::opts_knit$set(root.dir = here::here())
 [Ron Prywes]: https://biology.columbia.edu/people/prywes
 [Chloë Bulinski]: https://biology.columbia.edu/people/bulinski
 [Shannon Phan]: https://www.linkedin.com/in/shannon-phan-5058098
+[Vitalay Fomin]: https://www.linkedin.com/in/vitalayfomin
+[Venus So]: https://www.linkedin.com/in/venusso
+[Irwin Chen]: https://www.linkedin.com/in/irwin-chen-2667ba2
+[Rene Hubert]: https://www.linkedin.com/in/rene-hubert-82ab27143
 
 [GSAS Biological Sciences]: https://biology.columbia.edu
 [UCLA Microbiology, Immunology & Molecular Genetics]: https://www.mimg.ucla.edu
@@ -38,11 +42,45 @@ knitr::opts_knit$set(root.dir = here::here())
 
 | Eric Edward Bryant, PhD
 [<i class="fas fa-envelope"></i> Email](mailto:EricBryantPhD@gmail.com) /
-[<i class="fab fa-github"></i> Github](https://ericbryantphd.com/github) /
-[<i class="fab fa-twitter"></i> Twitter](https://ericbryantphd.com/twitter)\
+[<i class="fab fa-github"></i> Github](https://ericbryantphd.com/github)\
 [<i class="fab fa-researchgate"></i> ResearchGate](https://ericbryantphd.com/researchgate) /
 [<i class="fab fa-orcid"></i> ORCID](https://ericbryantphd.com/orcid) /
 [<i class="fab fa-linkedin"></i> LinkedIn](https://ericbryantphd.com/linkedin)
+
+
+-------------------------------------------------------------------------------
+
+
+# <i class="fas fa-briefcase"></i> Employment
+
+2020---Present
+:   | **Amgen, Postdoctoral Research Fellow**
+    | Developed and executed a research plan studying the genetics of mammalian
+      expression using CRISPR methods and transcriptomics.
+    | _Managers:_   [Irwin Chen] & [Rene Hubert]
+    | _Keywords:_   <small>
+                    High-throughput Mammalian Expression / RNAseq /
+                    Arrayed & pooled CRISPR screening / Protein Engineering /
+                    Multispecifics / Biologics Discovery / Biologics
+                    Optimization
+                    </small>
+
+2020 Spring
+:   | **Roche/Genentech, Clinical Genomics Data Science Consultant**
+    | Evaluated variant calling from RNAseq while on a short-term consulting
+      contract with pREDi (Pharma Research & Early Development Informatics).
+    | _Managers:_   [Venus So] & [Vitalay Fomin]
+    | _Keywords:_   <small>
+                    Genome Analysis toolkit (GATK) / RNAseq / Real World Data /
+                    High-performance Computing Cluster (HPC) / Bioinformatics
+                    Workflow Managers, CWL, Nextflow, Seven Bridges Genomics
+                    </small>
+
+2009---2011
+:   | **Gene Oracle, Research Assistant**
+    | _Role:_ De-novo gene synthesis & degenerate codon library construction. 
+      Pipeline management and development.
+    | _Manager:_ [Shannon Phan]
 
 
 -------------------------------------------------------------------------------
@@ -62,8 +100,9 @@ knitr::opts_knit$set(root.dir = here::here())
                     Systems genetics / Genetic interaction networks /
                     Landscape enrichment analysis / Synthetic lethality /
                     DNA replication, recombination & repair / 
-                    Chromosome mobility / CRISPR iSTOP / Bioinformatics /
-                    R statistical programming
+                    Chromosome mobility / CRISPR iSTOP / Base editing / 
+                    Bioinformatics / R statistical programming, package &
+                    shiny app development
                     </small>
 
 2006---2009
@@ -73,18 +112,6 @@ knitr::opts_knit$set(root.dir = here::here())
 2004---2006
 :   | **West Valley College**
     | _Department:_ [WVC Biology]
-
-
--------------------------------------------------------------------------------
-
-
-# <i class="fas fa-briefcase"></i> Employment
-
-2009---2011
-:   **Gene Oracle, Research Assistant**\
-    _Role:_ De-novo gene synthesis & degenerate codon library construction. 
-    Pipeline management and development.\
-    _Manager:_ [Shannon Phan]
 
 
 -------------------------------------------------------------------------------
@@ -100,6 +127,7 @@ knitr::opts_knit$set(root.dir = here::here())
     in Bryant et al. [2019](https://doi.org/10.1093/nar/gkz631).
     A nice example analysis using `screenmill` can be found in
     [Figure 1D](https://academic.oup.com/view-large/figure/163637130/gkz631fig1.jpg).
+    A shiny app is included to enable manual review of processed images.
 
 2017
 :   **[iSTOP R package](https://github.com/ericedwardbryant/iSTOP): design
@@ -204,6 +232,22 @@ knitr::opts_knit$set(root.dir = here::here())
 
 #### Supporting contribution
 
+2022-03-24
+:   Temporal coordination between chromosome mobility and homologous recombination.\
+    Joseph\ F, Lee\ SJ, **Bryant\ EE**, Reid\ RJD, Šunjevarić\ I, Rothstein\ R.\
+    _BioRxiv_. 2022.\
+    [BioRxiv: 10.1101/2022.03.24.485580v1](https://www.biorxiv.org/content/10.1101/2022.03.24.485580v1)
+    --
+    [DOI: 10.1101/2022.03.24.485580](https://doi.org/10.1101/2022.03.24.485580)
+
+2020-08-26
+:   Measuring chromosome pairing during homologous recombination in yeast.\
+    Joseph\ F, Lee\ SJ, **Bryant\ EE**, Rothstein\ R.\
+    _Methods in Molecular Biology_. 2021;2153:253---265.\
+    [PMID: 32840785](https://www.ncbi.nlm.nih.gov/pubmed/32840785)
+    --
+    [DOI: 10.1007/978-1-0716-0644-5_18](https://doi.org/10.1007/978-1-0716-0644-5_18)
+
 2019-10-01
 :   DNA damage triggers increased mobility of chromosomes in G1 phase cells.\
     Smith\ MJ, **Bryant\ EE**, Joseph\ FJ, Rothstein\ R.\
@@ -229,7 +273,7 @@ knitr::opts_knit$set(root.dir = here::here())
 :   A synthetic dosage lethal genetic interaction between CKS1B and PLK1 is
     conserved in yeast and human cancer cells.\
     Reid\ RJD, Du\ X, Šunjevarić\ I, Rayannavar\ V, Dittmar\ J,
-    **Bryant\ E**, Maurer\ M, and Rothstein\ R.\
+    **Bryant\ EE**, Maurer\ M, and Rothstein\ R.\
     _Genetics_. 2016 Oct 1;204(2):807---819\
     [PMID: 27558135](https://www.ncbi.nlm.nih.gov/pubmed/27558135)
     --
@@ -244,19 +288,10 @@ knitr::opts_knit$set(root.dir = here::here())
 
 # <i class="fas fa-file-download"></i> Downloads
 
-<i class="far fa-file-pdf"></i>
 ```{r echo = FALSE}
 xfun::embed_file(
   "static/documents/CV-Eric-Edward-Bryant-PhD.pdf",
   name = "CV-Eric-Edward-Bryant-PhD.pdf",
   text = 'CV (.pdf)'
-)
-```
-\ /\ \ <i class="far fa-file-alt"></i>
-```{r echo = FALSE}
-xfun::embed_file(
-  "static/references/library.bib",
-  name = "eric-edward-bryant.bib",
-  text = 'References (.bib)'
 )
 ```
