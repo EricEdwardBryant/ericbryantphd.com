@@ -14,10 +14,10 @@ author: Eric Edward Bryant
 
 <div style="text-align:center">
 [<i class="fas fa-envelope"></i> Email](mailto:EricBryantPhD@gmail.com) /
-[<i class="fab fa-github"></i> Github](https://ericbryantphd.com/github) /
-[<i class="fab fa-linkedin"></i> LinkedIn](https://ericbryantphd.com/linkedin)\
-[<i class="fab fa-researchgate"></i> ResearchGate](https://ericbryantphd.com/researchgate) /
-[<i class="fab fa-orcid"></i> ORCID](https://ericbryantphd.com/orcid) /
+[<i class="fab fa-github"></i> Github](github) /
+[<i class="fab fa-linkedin"></i> LinkedIn](linkedin)\
+[<i class="fab fa-researchgate"></i> ResearchGate](researchgate) /
+[<i class="fab fa-orcid"></i> ORCID](orcid) /
 </div>
 
 -------------------------------------------------------------------------------
