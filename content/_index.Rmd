@@ -41,6 +41,8 @@ someone with an interest and expertise in any of the following areas:
 
 ## About me
 
+### After the PhD
+
 I am currently a postdoctoral research fellow at Amgen in Therapeutic Discovery,
 where I am applying CIRSPR methods and transcriptomics to study the genetics
 of complex molecule expression in mammalian cells. In this role I have gained
@@ -54,8 +56,10 @@ variant calling from RNA sequencing data. Here I gained valuable experience with
 NGS workflows and high performance computing environments in an industry
 setting.
 
-## Publication highlights
+### The PhD
 
+My PhD was completed in 2018 at Columbia University under the mentorship of
+Professor Rodney Rothstein and co-mentorship by Professor Alberto Ciccia.
 To read some of my PhD thesis work, check out the following publications:
 
 - Rad5 dysregulation drives hyperactive recombination at replication forks
@@ -87,27 +91,33 @@ which includes,
 [informal introductions to the topics covered in my dissertation](2020/01/09/phd-dissertation#preface),
 and
 [discussion of key insights from my PhD](2020/01/09/phd-dissertation#discussion).
-A complete list of my publications is available [here](cv#publications).
+A complete list of my publications is also available [here](cv#publications).
 
 ## Software highlights
 
-For examples of research software I have developed, check out the following:
+For examples of my research software, check out the following:
 
-2019
-:   **[screenmill R package](https://github.com/ericedwardbryant/screenmill):
-    capture, annotate, quantify, review and analyze time-series colony
-    growth.**
-    This package was used for colony quantification and interaction analysis
-    in Bryant et al. [2019](https://doi.org/10.1093/nar/gkz631).
-    A nice example analysis using `screenmill` can be found in
-    [Figure 1D](https://academic.oup.com/view-large/figure/163637130/gkz631fig1.jpg).
-    A shiny app is included to enable manual review of processed images.
+- **[screenmill R package](https://github.com/ericedwardbryant/screenmill):
+  capture, annotate, quantify, review and analyze time-series colony growth.**
+  This package was used for colony quantification and interaction analysis in
+  [Bryant et al., _NAR_ 2019](https://doi.org/10.1093/nar/gkz631).
+  A nice example analysis using `screenmill` can be found in
+  [Figure 1D](https://academic.oup.com/view-large/figure/163637130/gkz631fig1.jpg).
+  A shiny app is included to enable manual review of processed images.
 
-2017
-:   **[iSTOP R package](https://github.com/ericedwardbryant/iSTOP): design
-    guides to introduce stop codons with CRISPR-mediated base editors.**
-    This package was written to facilitate guide design for
-    Billon et el. [2017](https://doi.org/10.1016/j.molcel.2017.08.008).
-    `iSTOP` can be configured to design guides to generate any desired missense
-    mutation using any hypothetical base editor in any genome with
-    annotated coding sequence coordinates.
+- **[iSTOP R package](https://github.com/ericedwardbryant/iSTOP): design
+  guides to introduce stop codons with CRISPR-mediated base editors.**
+  This package was written to facilitate guide design for
+  [Billon et al., _Mol Cell_ 2017](https://doi.org/10.1016/j.molcel.2017.08.008).
+  `iSTOP` can be configured to design guides to generate any desired missense
+  mutation using any hypothetical base editor in any genome with annotated
+  coding sequence coordinates.
+
+These packages were written largely for personal use to enable analyses for
+the publications during my PhD that I highlight above. They were never submitted
+to CRAN, or Bioconductor repositories as they lack appropriate test coverage,
+and were part of my R package development learning journey. That said, I am
+proud to say that my previous collaborators still use these tools for ongoing 
+work, including to design the CRISPR base editing guide library in
+[Cuella-Martin et al., _Cell_ 2021](https://doi.org/10.1016/j.cell.2021.01.041).
+Pretty neat to enable such exciting work and to get an acknowledgement in Cell!
