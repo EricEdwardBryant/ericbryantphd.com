@@ -33,7 +33,7 @@ that uses <code>replaceRE</code> to do a regular expression match and replacemen
 In this case, heading levels 2 through 9 are found.
 The regular expression has three groups defined by <code>(...)</code>.
 The first matches the opening header tag <code>&lt;h...</code>, the second matches the ID
-within the opening header tag <code>[^\&quot;]+</code>, and the third captures the closing tag
+within the opening header tag <code>[^\"]+</code>, and the third captures the closing tag
 <code>&lt;/h...</code>.
 The replacement is then reconscructed from these groups, starting with the
 opening header tag (group 1 <code>${1}</code>), followed by the anchor which is
@@ -60,7 +60,7 @@ just need to match the <code>&lt;div&gt;</code>, not just the <code>&lt;h*&gt;</
 <li><p>Create <code>layouts/partials/anchored-headings.html</code> with:</p>
 <pre class="html"><code>{{ . | replaceRE &quot;(&lt;div id=\&quot;([^\&quot;]+)\&quot;.+class=\&quot;section level[1-3].+\n&lt;h[1-4]&gt;.+)(&lt;/h[1-4]&gt;)&quot; &quot;${1}&amp;nbsp;&lt;a class=\&quot;section-anchor\&quot; href=\&quot;#${2}\&quot;&gt;&lt;i class=\&quot;fas fa-link\&quot;&gt;&lt;/i&gt;&lt;/a&gt;${3}&quot; | safeHTML }}
 &lt;!-- yeah, it&#39;s a long line... --&gt;</code></pre>
-<p>I’m using the fontawesome link icon (<code>&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt;</code>), so
+<p>I’m using the fontawesome link icon (<code>&lt;i class="fas fa-link"&gt;&lt;/i&gt;</code>), so
 replace this with whatever text you want for your link.
 To use fontawesome with blogdown, see my
 <a href="https://ericbryantphd.com/2019/11/01/joining-the-internet/#setting-everything-up">previous post</a>.</p></li>

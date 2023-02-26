@@ -20,12 +20,12 @@ tags:
 
 <div id="TOC">
 <ul>
-<li><a href="#tldr">TL;DR</a></li>
-<li><a href="#why-an-r-package-version-manager-is-important">Why an R package version manager is <em>important</em></a></li>
-<li><a href="#my-journey-to-renv">My journey to <span>renv</span></a></li>
-<li><a href="#remaining-rough-edges">Remaining rough edges</a></li>
-<li><a href="#conclusion">Conclusion</a></li>
-<li><a href="#footnotes-and-references">Footnotes and references</a></li>
+<li><a href="#tldr" id="toc-tldr">TL;DR</a></li>
+<li><a href="#why-an-r-package-version-manager-is-important" id="toc-why-an-r-package-version-manager-is-important">Why an R package version manager is <em>important</em></a></li>
+<li><a href="#my-journey-to-renv" id="toc-my-journey-to-renv">My journey to renv</a></li>
+<li><a href="#remaining-rough-edges" id="toc-remaining-rough-edges">Remaining rough edges</a></li>
+<li><a href="#conclusion" id="toc-conclusion">Conclusion</a></li>
+<li><a href="#footnotes-and-references" id="toc-footnotes-and-references">Footnotes and references</a></li>
 </ul>
 </div>
 
@@ -68,7 +68,7 @@ learning R.</p>
 ship to focus on learning other popular languages.
 But, every time I was about to turn away from R, somebody would solve my
 problem in a new package, softening R’s rough edges.
-All I needed to do was <code>install.packages(&quot;solve.erics.problem.now&quot;)</code>, and I was
+All I needed to do was <code>install.packages("solve.erics.problem.now")</code>, and I was
 happy as a clam<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>.</p>
 <p>Some notable examples of this:</p>
 <ul>
@@ -124,7 +124,7 @@ I recommend testing installation at work, home, and gym.
 Do you have Rtools/XCode/build-essential installed?
 Ooooh, actually, I forgot that I started using <code>superAwesomeNewPackage</code>.
 Be sure to install that as well, I’ll update the install script.
-Simply run that script and everything should work great.&quot;</p>
+Simply run that script and everything should work great.”</p>
 </blockquote>
 <p>And they never want to collaborate with you again.
 Of course, this is an exaggeration.
@@ -274,8 +274,8 @@ Note the system default library that contains all the base R packages is not
 present (instead that second library just has symlinks to base R packages).
 No more worrying about polluting the system library!</p>
 <pre class="r"><code>.libPaths()</code></pre>
-<pre><code>## [1] &quot;/Users/ericbryant/Dropbox/GitHub/EricBryantPhD/ericbryantphd.com/renv/library/R-3.6/x86_64-apple-darwin15.6.0&quot;
-## [2] &quot;/private/var/folders/8j/_6xf2s2d2c75d83_y37cq0100000gn/T/RtmpWtyARw/renv-system-library&quot;</code></pre>
+<pre><code>## [1] &quot;/Library/Frameworks/R.framework/Versions/4.2/Resources/library-user&quot;
+## [2] &quot;/Library/Frameworks/R.framework/Versions/4.2/Resources/library&quot;</code></pre>
 <p>Also, because I use stable repositories, and because <a href="https://rstudio.github.io/renv/articles/renv.html">renv</a> records these in
 <code>renv.lock</code>, binary packages are available for old package versions without my
 collaborators having to do <em>any</em> configuration.</p>
@@ -415,26 +415,26 @@ I hope to change that feeling soon!</p>
 </div>
 <div id="footnotes-and-references" class="section level1 unnumbered">
 <h1>Footnotes and references</h1>
-<div id="refs" class="references">
-<div id="ref-2017-09-Billon-Bryant-Ciccia">
-<p>Billon, Pierre, Eric E Bryant, Sarah A Joseph, Tarun S Nambiar, Samuel B Hayward, Rodney Rothstein, and Alberto Ciccia. 2017. “CRISPR-Mediated Base Editing Enables Efficient Disruption of Eukaryotic Genes Through Induction of STOP Codons.” <em>Molecular Cell</em> 67 (6): 1068–1079.e4. <a href="https://doi.org/10.1016/j.molcel.2017.08.008">https://doi.org/10.1016/j.molcel.2017.08.008</a>.</p>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-2017-09-Billon-Bryant-Ciccia" class="csl-entry">
+Billon, Pierre, Eric E Bryant, Sarah A Joseph, Tarun S Nambiar, Samuel B Hayward, Rodney Rothstein, and Alberto Ciccia. 2017. <span>“<span>CRISPR</span>-Mediated Base Editing Enables Efficient Disruption of Eukaryotic Genes Through Induction of <span>STOP</span> Codons.”</span> <em>Molecular Cell</em> 67 (6): 1068–1079.e4. <a href="https://doi.org/10.1016/j.molcel.2017.08.008">https://doi.org/10.1016/j.molcel.2017.08.008</a>.
 </div>
 </div>
 </div>
-<div class="footnotes">
+<div class="footnotes footnotes-end-of-document">
 <hr />
 <ol>
 <li id="fn1"><p>I am not really sure how happy clams are, but I think probably this
-happy 🤩<a href="#fnref1" class="footnote-back">↩</a></p></li>
+happy 🤩<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
 <li id="fn2"><p>My condolences for anyone attempting to reproduce my own analysis, with 90
-package dependencies, described in <span class="citation">Billon et al. (<a href="#ref-2017-09-Billon-Bryant-Ciccia">2017</a>)</span>, available
-<a href="https://github.com/CicciaLab/iSTOP-paper">here</a><a href="#fnref2" class="footnote-back">↩</a></p></li>
-<li id="fn3"><p>Repositories are where R packages are downloaded from<a href="#fnref3" class="footnote-back">↩</a></p></li>
+package dependencies, described in <span class="citation">Billon et al. (<a href="#ref-2017-09-Billon-Bryant-Ciccia" role="doc-biblioref">2017</a>)</span>, available
+<a href="https://github.com/CicciaLab/iSTOP-paper">here</a><a href="#fnref2" class="footnote-back">↩︎</a></p></li>
+<li id="fn3"><p>Repositories are where R packages are downloaded from<a href="#fnref3" class="footnote-back">↩︎</a></p></li>
 <li id="fn4"><p>A library is a directory where R packages are installed.
-R packages themselves are directories containing code and documentation.<a href="#fnref4" class="footnote-back">↩</a></p></li>
+R packages themselves are directories containing code and documentation.<a href="#fnref4" class="footnote-back">↩︎</a></p></li>
 <li id="fn5"><p>Ultimately my <a href="https://github.com/ericedwardbryant/rprofile">rprofile</a> issue was just that Windows does not allow
 writing to the directory that R lives in, which is where <a href="https://github.com/ericedwardbryant/rprofile">rprofile</a> tried to
 make the versioned libraries by default.
-It was an easy fix, but le sigh 😭<a href="#fnref5" class="footnote-back">↩</a></p></li>
+It was an easy fix, but le sigh 😭<a href="#fnref5" class="footnote-back">↩︎</a></p></li>
 </ol>
 </div>
