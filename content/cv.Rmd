@@ -124,7 +124,7 @@ knitr::opts_knit$set(root.dir = here::here())
     capture, annotate, quantify, review and analyze time-series colony
     growth.**
     This package was used for colony quantification and interaction analysis
-    in Bryant et al. [2019](https://doi.org/10.1093/nar/gkz631).
+    in [Bryant et al., _NAR_ 2019](https://doi.org/10.1093/nar/gkz631).
     A nice example analysis using `screenmill` can be found in
     [Figure 1D](https://academic.oup.com/view-large/figure/163637130/gkz631fig1.jpg).
     A shiny app is included to enable manual review of processed images.
@@ -133,7 +133,7 @@ knitr::opts_knit$set(root.dir = here::here())
 :   **[iSTOP R package](https://github.com/ericedwardbryant/iSTOP): design
     guides to introduce stop codons with CRISPR-mediated base editors.**
     This package was written to facilitate guide design for
-    Billon et el. [2017](https://doi.org/10.1016/j.molcel.2017.08.008).
+    [Billon et al., _Mol Cell_ 2017](https://doi.org/10.1016/j.molcel.2017.08.008).
     `iSTOP` can be configured to design guides to generate any desired missense
     mutation using any hypothetical base editor in any genome with
     annotated coding sequence coordinates.
@@ -281,7 +281,20 @@ knitr::opts_knit$set(root.dir = here::here())
     --
     [DOI: 10.1534/genetics.116.190231](https://doi.org/10.1534/genetics.116.190231)
 
+#### Select Acknowledgements
 
+:   Functional interrogation of DNA damage response variants with base editing
+    screens.\
+    Cuella-Martin\ R, Hayward\ SB, Fan\ X, Chen\ Xiao, Huang\ JW,
+    Taglialatela\ A, Leuzzi\ G, Zhao\ J, Rabadan\ R, Lu\ C, Shen\ Y, Ciccia A.\
+    _Cell_. 2021 Feb 18;184(4):1081-1097.e19\
+    [PMID: 33606978](https://www.ncbi.nlm.nih.gov/pubmed/33606978)
+    --
+    [PMCID: PMC8018281](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8018281)
+    --
+    [DOI: 10.1016/j.cell.2021.01.041](https://doi.org/10.1016/j.cell.2021.01.041)\
+    **I was acknowledged for bioinformatics support as I designed the guide
+    library used for a CRISPR base editing screen.**
 
 -------------------------------------------------------------------------------
 
