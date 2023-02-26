@@ -340,7 +340,7 @@ not specifically kill cancer cells, rather they preferentially kill all
 dividing cells.
 The logic of the genetic approach described by Hartwell, begins with the
 observation that there are numerous recurring genetic alterations that are
-observed in cancer, which represent an an attack surface for selectively
+observed in cancer, which represent an attack surface for selectively
 killing cancer cells.
 Geneticists had long observed a phenomenon they called synthetic lethality,
 wherein combining two otherwise harmless mutations results in cell death
