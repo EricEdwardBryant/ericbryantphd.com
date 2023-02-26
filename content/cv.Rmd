@@ -42,10 +42,10 @@ knitr::opts_knit$set(root.dir = here::here())
 
 | Eric Edward Bryant, PhD
 [<i class="fas fa-envelope"></i> Email](mailto:EricBryantPhD@gmail.com) /
-[<i class="fab fa-github"></i> Github](github)\
-[<i class="fab fa-researchgate"></i> ResearchGate](researchgate) /
-[<i class="fab fa-orcid"></i> ORCID](orcid) /
-[<i class="fab fa-linkedin"></i> LinkedIn](linkedin)
+[<i class="fab fa-github"></i> Github](https://ericedwardbryant.netlify.app/github)\
+[<i class="fab fa-researchgate"></i> ResearchGate](https://ericedwardbryant.netlify.app/researchgate) /
+[<i class="fab fa-orcid"></i> ORCID](https://ericedwardbryant.netlify.app/orcid) /
+[<i class="fab fa-linkedin"></i> LinkedIn](https://ericedwardbryant.netlify.app/linkedin)
 
 
 -------------------------------------------------------------------------------
